@@ -458,3 +458,45 @@ width: 205px;
     }
 
   }
+
+
+  @media screen and (min-width: 1020px){
+    header h1 {
+        font-size: 40px;
+        letter-spacing: 2px;
+        padding: 10rem 0.25rem 2rem 0.25rem;
+    }
+    nav, body, nav ul{
+        width: 80%;
+    }
+
+    main{
+        padding-bottom: 10rem;
+    }
+
+    div.container{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 5rem;
+        grid-gap: 2rem;
+        overflow: auto;
+    }
+    div.container > div{
+
+        border: white solid 2px;
+    }
+
+
+    main div.main h2 {
+        font-size: 20px;
+        padding: 30px 90px 50px 90px;
+        text-align: left;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    footer{
+    position:static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    }
+  }
