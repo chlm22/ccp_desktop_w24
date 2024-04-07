@@ -514,6 +514,7 @@ div#cat-container{
         margin-top: 5rem;
         grid-gap: 2rem;
         overflow: auto;
+        overflow-x: scroll;
     }
     div.container > div{
 
