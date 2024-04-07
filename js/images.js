@@ -6,11 +6,12 @@ petDiv.addEventListener("mouseover", showPet);
 petDiv.addEventListener("mouseout", noPet);
 
 function showPet(){
-    petImg.setAttribute("style","visibility : visible");
+    petImg.setAttribute("style","display: box");
 }
+//display: none 
 
 function noPet(){
-    petImg.setAttribute("style","visibility : hidden");
+    petImg.setAttribute("style","display: none ");
 }
 
 const cookingDiv = document.getElementById("other-page-cooking");
@@ -21,11 +22,11 @@ cookingDiv.addEventListener("mouseover", showFood);
 cookingDiv.addEventListener("mouseout", noFood);
 
 function showFood(){
-    cookingImg.setAttribute("style","visibility : visible");
+    cookingImg.setAttribute("style","display: box");
 }
 
 function noFood(){
-    cookingImg.setAttribute("style","visibility : hidden");
+    cookingImg.setAttribute("style","display: none ");
 }
 
 const travelDiv = document.getElementById("other-page-travel");
@@ -35,9 +36,9 @@ travelDiv.addEventListener("mouseover", showTravel);
 travelDiv.addEventListener("mouseout", noTravel);
 
 function showTravel(){
-    travelImg.setAttribute("style","visibility : visible");
+    travelImg.setAttribute("style","display: box");
 }
 
 function noTravel(){
-    travelImg.setAttribute("style","visibility : hidden");
+    travelImg.setAttribute("style","display: none ");
 }
